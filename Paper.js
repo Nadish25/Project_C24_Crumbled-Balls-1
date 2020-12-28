@@ -18,12 +18,12 @@ class Paper
         var pos=this.body.position;
         push();
         translate(pos.x,pos.y,this.radius)
-        ellipse(pos.x,pos.y,this.radius,this.radius);
+        ;
         stroke("green")
         strokeWeight(0.5)
         fill("purple");
         ellipseMode(RADIUS);
-        
+        ellipse(pos.x,pos.y,this.radius,this.radius)
         pop();
         
        }
