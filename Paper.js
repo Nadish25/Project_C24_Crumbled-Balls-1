@@ -23,7 +23,7 @@ class Paper
         strokeWeight(0.5)
         fill("purple");
         ellipseMode(RADIUS);
-        ellipse(0,0,this.radius,this.radius);
+        
         pop();
         
        }
