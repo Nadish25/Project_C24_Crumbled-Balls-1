@@ -18,7 +18,7 @@ class Paper
         var pos=this.body.position;
         push();
         translate(pos.x,pos.y,this.radius)
-        ;
+        
         stroke("green")
         strokeWeight(0.5)
         fill("purple");
